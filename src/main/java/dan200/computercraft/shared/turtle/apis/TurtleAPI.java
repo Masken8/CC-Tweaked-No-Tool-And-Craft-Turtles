@@ -189,7 +189,7 @@ public class TurtleAPI implements ILuaAPI
     {
         // environment.addTrackingChange( TrackingField.TURTLE_OPS );
         // return trackCommand( TurtleToolCommand.dig( InteractDirection.FORWARD, side.orElse( null ) ) );
-        return MethodResult.of(false, "Dig is not enabled");
+        return MethodResult.of( false, "Dig is not enabled" );
     }
 
     /**
@@ -206,7 +206,7 @@ public class TurtleAPI implements ILuaAPI
     {
         // environment.addTrackingChange( TrackingField.TURTLE_OPS );
         // return trackCommand( TurtleToolCommand.dig( InteractDirection.UP, side.orElse( null ) ) );
-        return MethodResult.of(false, "Dig is not enabled");
+        return MethodResult.of( false, "Dig is not enabled" );
     }
 
     /**
@@ -223,7 +223,7 @@ public class TurtleAPI implements ILuaAPI
     {
         // environment.addTrackingChange( TrackingField.TURTLE_OPS );
         // return trackCommand( TurtleToolCommand.dig( InteractDirection.DOWN, side.orElse( null ) ) );
-        return MethodResult.of(false, "Dig is not enabled");
+        return MethodResult.of( false, "Dig is not enabled" );
     }
 
     /**
@@ -244,7 +244,7 @@ public class TurtleAPI implements ILuaAPI
     public final MethodResult place( IArguments args )
     {
         //return trackCommand( new TurtlePlaceCommand( InteractDirection.FORWARD, args.getAll() ) );
-        return MethodResult.of(false, "Place is not enabled");
+        return MethodResult.of( false, "Place is not enabled" );
     }
 
     /**
@@ -262,7 +262,7 @@ public class TurtleAPI implements ILuaAPI
     public final MethodResult placeUp( IArguments args )
     {
         //return trackCommand( new TurtlePlaceCommand( InteractDirection.UP, args.getAll() ) );
-        return MethodResult.of(false, "Place is not enabled");
+        return MethodResult.of( false, "Place is not enabled" );
     }
 
     /**
@@ -280,7 +280,7 @@ public class TurtleAPI implements ILuaAPI
     public final MethodResult placeDown( IArguments args )
     {
         //return trackCommand( new TurtlePlaceCommand( InteractDirection.DOWN, args.getAll() ) );
-        return MethodResult.of(false, "Place is not enabled");
+        return MethodResult.of( false, "Place is not enabled" );
     }
 
     /**
@@ -480,7 +480,7 @@ public class TurtleAPI implements ILuaAPI
     public final MethodResult attack( Optional<TurtleSide> side )
     {
         //return trackCommand( TurtleToolCommand.attack( InteractDirection.FORWARD, side.orElse( null ) ) );
-        return MethodResult.of(false, "Attack is not enabled");
+        return MethodResult.of( false, "Attack is not enabled" );
     }
 
     /**
@@ -497,7 +497,7 @@ public class TurtleAPI implements ILuaAPI
     public final MethodResult attackUp( Optional<TurtleSide> side )
     {
         //return trackCommand( TurtleToolCommand.attack( InteractDirection.UP, side.orElse( null ) ) );
-        return MethodResult.of(false, "Attack is not enabled");
+        return MethodResult.of( false, "Attack is not enabled" );
     }
 
     /**
@@ -514,7 +514,7 @@ public class TurtleAPI implements ILuaAPI
     public final MethodResult attackDown( Optional<TurtleSide> side )
     {
         //return trackCommand( TurtleToolCommand.attack( InteractDirection.DOWN, side.orElse( null ) ) );
-        return MethodResult.of(false, "Attack is not enabled");
+        return MethodResult.of( false, "Attack is not enabled" );
     }
 
     /**

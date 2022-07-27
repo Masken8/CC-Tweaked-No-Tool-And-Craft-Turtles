@@ -10,7 +10,6 @@ import dan200.computercraft.api.lua.LuaFunction;
 import dan200.computercraft.api.lua.MethodResult;
 import dan200.computercraft.api.peripheral.IPeripheral;
 import dan200.computercraft.api.turtle.ITurtleAccess;
-import dan200.computercraft.shared.turtle.core.TurtleCraftCommand;
 
 import javax.annotation.Nonnull;
 import java.util.Optional;
@@ -44,7 +43,7 @@ public class CraftingTablePeripheral implements IPeripheral
         // int limit = count.orElse( 64 );
         // if( limit < 0 || limit > 64 ) throw new LuaException( "Crafting count " + limit + " out of range" );
         // return turtle.executeCommand( new TurtleCraftCommand( limit ) );
-        throw new LuaException("Craft is not enabled");
+        throw new LuaException( "Craft is not enabled" );
     }
 
     @Override
